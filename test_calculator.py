@@ -14,7 +14,7 @@ class test_class(unittest.TestCase):
 
     def test_divide(self):
         self.assertEqual(calculator.divide(21,3), 7)
-        self.asserEqual(calculator.divide(7,0), 7)              #should fail
+        self.assertEqual(calculator.divide(7,0), 7)              #should fail
 
     # how to run:
     # python -m unittest test_calculator.py
