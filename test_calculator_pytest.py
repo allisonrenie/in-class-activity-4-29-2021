@@ -9,7 +9,7 @@ def test_subtract():
 
 def test_multiply():
     assert calculator.multiply(7,3) == 21
-    assert calculator.multiply(7,1) == 8
+    assert calculator.multiply(7,1) == 8    #should fail
 
 def test_divide():
     assert calculator.divide(21,3) == 7
